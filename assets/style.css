@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     background-color: lavender;
+    font-family: 'Architects Daughter', cursive;
 }
 
 body {
@@ -19,11 +20,17 @@ header {
     align-items: center;
     padding: 15px;
     margin: 15px;
+}
+
+#view-high-scores:hover {
+    cursor: pointer;
+    color: rgba(99, 160, 225, 0.919);
+}
 
 .container {
     padding: 20px;
     flex-direction: column;
-    width: 50%
+    width: 50%;
     margin: auto;
 }
 
@@ -35,4 +42,129 @@ h1{
 p {
     font-size: 25px;
     font-style: italic;
+}
+
+.start{
+    align-items: center;
+    text-align: center;
+}
+
+.start h1, .start p{
+    text-align: center;
+}
+
+.questions {
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 45px 20px;
+    margin:auto;
+}
+
+.end h1, .end p{
+    text-align: left;
+}
+
+.end input {
+    outline: thick;
+    border-width: 2px;
+    padding: 5px;
+    width: 45%;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.end input:focus {
+    border: 2px;
+}
+
+.display {
+    display: flex;
+}
+
+.hide {
+    display: none;
+}
+
+#question {
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#high-score {
+    text-align: left;
+}
+
+
+/* Styling for Button */
+.btn {
+    padding: 10px 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border: 2px;
+    box-shadow: 0 3px gray;
+    color:white;
+    background-color: black;
+}
+
+.btn:hover {
+    background: rgba(99, 160, 225, 0.919);
+    border-radius: 10px;
+    box-shadow: 0 3px gray;
+    cursor: pointer;
+}
+
+.btn:active {
+    border: none;
+    outline: none;
+    box-shadow: 0 0 gray;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    grid-gap: 5px;
+    margin: 25px 0;
+}
+
+.startend {
+    width: 25%;
+    margin-top: 10px;
+}
+
+.banner {
+    font-size: 25px;
+    text-align: center;
+    color: black;
+    font-style: italic;
+    margin: 0 100px;
+}
+
+.banner h2 {
+    border-top: 2px solid black;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.answerbtn {
+    width: 50%;
+    text-align: left;
+    font-size: 18px;
+}
+
+ol {
+    list-style-type: number;
+}
+
+li:nth-child(odd){
+    background-color:lightblue;
+}
+
+li {
+    font-size: 20px;
 }
