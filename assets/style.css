@@ -34,6 +34,7 @@ header {
     margin: auto;
 }
 
+/* For intro/start */
 h1{
     font-weight: bold;
     font-size: 35px;
@@ -53,6 +54,7 @@ p {
     text-align: center;
 }
 
+ /* Format for questions  */
 .questions {
     align-items: flex-start;
     justify-content: flex-start;
@@ -85,6 +87,7 @@ p {
     display: none;
 }
 
+/* Styling for question text */
 #question {
     text-align: left;
     font-size: 25px;
