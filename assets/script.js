@@ -164,7 +164,7 @@ var answerCheck = function(event) {
     var selectedanswer = event.target
         if (arrayShuffledQuestions[QuestionIndex].a === selectedanswer.innerText){
             answerCorrect()
-            score = score + 7
+            score = score + 10
         }
 // Subtract 10 seconds for every wrong answer //
         else {
