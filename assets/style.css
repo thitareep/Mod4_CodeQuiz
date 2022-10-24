@@ -1,0 +1,38 @@
+/* Universal settings */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: lavender;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: lightgray;
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin: 15px;
+
+.container {
+    padding: 20px;
+    flex-direction: column;
+    width: 50%
+    margin: auto;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 35px;
+}
+
+p {
+    font-size: 25px;
+    font-style: italic;
+}
